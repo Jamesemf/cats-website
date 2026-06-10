@@ -31,8 +31,12 @@ const icons: Record<IconName, React.ReactNode> = {
       <circle cx="12" cy="12" r="9" opacity="0.3" />
     </>
   ),
-  vibes: (
-    <path d="M12 20.5S4 15.4 4 9.9A4.4 4.4 0 0 1 12 7a4.4 4.4 0 0 1 8 2.9c0 5.5-8 10.6-8 10.6Z" />
+  claim: (
+    <>
+      <circle cx="12" cy="9.5" r="6" />
+      <path d="M9.5 9.5l1.8 1.8 3.2-3.3" />
+      <path d="M9 14.5 7.5 21l4.5-2.5L16.5 21 15 14.5" />
+    </>
   ),
 };
 

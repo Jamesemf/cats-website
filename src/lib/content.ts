@@ -12,7 +12,7 @@ export type IconName =
   | "rarity"
   | "feed"
   | "territory"
-  | "vibes";
+  | "claim";
 
 export const features: { icon: IconName; title: string; body: string }[] = [
   {
@@ -41,11 +41,31 @@ export const features: { icon: IconName; title: string; body: string }[] = [
     body: "Every cat gets a profile: sighting timeline, territory heatmap, and when it likes to prowl, be it morning, noon or midnight.",
   },
   {
-    icon: "vibes",
-    title: "Vibes",
-    body: "Friendly? Shy? Professionally grumpy? Tag each cat’s personality and build the definitive character record.",
+    icon: "claim",
+    title: "Claim Your Cat",
+    body: "Spotted your own cat in the catalogue? Verify ownership with a few photos, add their story, and get notified whenever they are seen out and about.",
   },
 ];
+
+export const celebrity = {
+  eyebrow: "For cat owners",
+  title: "Your cat, the local celebrity",
+  body: "Ever wondered where your cat actually goes all day? Claim them with a few photos, let AI verify the match, and every neighbourhood sighting comes straight to you. Their secret journey, finally on the map.",
+  points: [
+    {
+      title: "Prove they're yours",
+      body: "Upload two or three photos and AI matches coat, pattern and eye colour against their record. No paperwork, just whiskers.",
+    },
+    {
+      title: "Tell their story",
+      body: "Add an owner's card: do they like a fuss, will they take a treat, and what is their best kept secret? Every spotter sees it.",
+    },
+    {
+      title: "Never miss a sighting",
+      body: "The moment someone spots your cat, you get a notification. Two streets away or two hours ago, you will know.",
+    },
+  ],
+};
 
 export const steps: { title: string; body: string }[] = [
   {

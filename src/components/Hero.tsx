@@ -33,7 +33,8 @@ export default function Hero() {
             <p className="mt-6 max-w-md text-lg leading-relaxed text-muted">
               Cats on a Map turns your daily walk into a collecting game.
               Snap a photo, let AI identify the cat, and watch your local map
-              come alive.
+              come alive. And if one of the stars is your own cat, claim them
+              and follow their secret journey.
             </p>
           </Reveal>
           <Reveal delay={0.24}>

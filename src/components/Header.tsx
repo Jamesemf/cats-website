@@ -4,6 +4,7 @@ import { NOTIFY_MAILTO } from "@/lib/content";
 const links = [
   { href: "#features", label: "Features" },
   { href: "#how-it-works", label: "How it works" },
+  { href: "#claim", label: "For owners" },
   { href: "#rarity", label: "Rarity" },
 ];
 
