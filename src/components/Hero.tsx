@@ -25,13 +25,13 @@ export default function Hero() {
           </Reveal>
           <Reveal delay={0.08}>
             <h1 className="mt-6 font-display text-5xl font-semibold leading-[1.04] tracking-tight sm:text-6xl lg:text-7xl">
-              Every neighbourhood cat.{" "}
-              <span className="italic text-rust">Mapped.</span>
+              Every cat has a <span className="italic text-rust">story.</span>{" "}
+              Go find it.
             </h1>
           </Reveal>
           <Reveal delay={0.16}>
             <p className="mt-6 max-w-md text-lg leading-relaxed text-muted">
-              Cats on a Map turns your daily walk into a collecting game.
+              Cats turns your daily walk into a collecting game.
               Snap a photo, let AI identify the cat, and watch your local map
               come alive. And if one of the stars is your own cat, claim them
               and follow their secret journey.

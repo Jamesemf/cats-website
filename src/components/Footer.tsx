@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-5 px-5 py-10 sm:flex-row">
         <div className="flex items-center gap-2.5">
           <CatFace size={26} />
-          <span className="font-display font-semibold">Cats on a Map</span>
+          <span className="font-display font-semibold">Cats</span>
         </div>
         <nav className="flex items-center gap-7 text-sm text-muted">
           <a
@@ -22,7 +22,7 @@ export default function Footer() {
             Privacy
           </a>
         </nav>
-        <p className="text-sm text-muted">© 2026 Cats on a Map</p>
+        <p className="text-sm text-muted">© 2026 Cats</p>
       </div>
     </footer>
   );

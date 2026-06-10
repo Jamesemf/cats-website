@@ -15,7 +15,7 @@ export default function Header() {
         <a href="#top" className="flex items-center gap-2.5">
           <CatFace size={32} />
           <span className="font-display text-lg font-semibold tracking-tight">
-            Cats on a Map
+            Cats
           </span>
         </a>
         <nav className="hidden items-center gap-7 text-sm font-medium text-muted md:flex">

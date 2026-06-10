@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Privacy | Cats on a Map",
+  title: "Privacy | Cats",
 };
 
 export default function Privacy() {
@@ -16,7 +16,7 @@ export default function Privacy() {
         </h1>
         <div className="mt-8 space-y-5 leading-relaxed text-muted">
           <p>
-            Cats on a Map is currently in development and has not yet
+            Cats is currently in development and has not yet
             launched. This page will hold the full privacy policy before
             release.
           </p>

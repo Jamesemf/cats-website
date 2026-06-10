@@ -18,7 +18,7 @@ export default function CtaBanner() {
             Be first on the map
           </h2>
           <p className="relative mx-auto mt-4 max-w-md text-lg text-[#f6d9d0]">
-            Cats on a Map is in development. Leave your email and we’ll miaow
+            Cats is in development. Leave your email and we’ll miaow
             when it launches.
           </p>
           <div className="relative mt-9 flex flex-wrap items-center justify-center gap-4">

@@ -13,13 +13,13 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Cats on a Map | Every neighbourhood cat. Mapped.",
+  title: "Cats | Every cat has a story. Go find it.",
   description:
-    "Snap a photo, let AI identify the cat, and build your collection. Cats on a Map is a Pokémon Go-style game for the cats on your street, coming soon to iOS & Android.",
+    "Snap a photo, let AI identify the cat, and build your collection. Cats is a Pokémon Go-style game for the cats on your street, coming soon to iOS & Android.",
   openGraph: {
-    title: "Cats on a Map",
+    title: "Cats",
     description:
-      "Snap a photo, let AI identify the cat, and build your collection. Every neighbourhood cat, mapped.",
+      "Snap a photo, let AI identify the cat, and build your collection. Every cat has a story. Go find it.",
     type: "website",
   },
 };
