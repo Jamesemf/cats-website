@@ -125,10 +125,16 @@ export const vibes: { emoji: string; label: string }[] = [
   { emoji: "🙈", label: "shy" },
   { emoji: "😋", label: "hungry" },
   { emoji: "☁️", label: "fluffy" },
-  { emoji: "🍔", label: "chonky" },
   { emoji: "😾", label: "grumpy" },
   { emoji: "🧶", label: "playful" },
   { emoji: "😴", label: "sleepy" },
+  { emoji: "🧐", label: "curious" },
+  { emoji: "💨", label: "zoomies" },
+  { emoji: "👑", label: "majestic" },
+  { emoji: "🍞", label: "loafing" },
+  { emoji: "😼", label: "menace" },
+  { emoji: "📢", label: "vocal" },
+  { emoji: "🍔", label: "OH LAWD HE COMIN" },
 ];
 
 export const NOTIFY_MAILTO =
