@@ -44,7 +44,7 @@ export default function Features() {
           Built for cat spotters
         </h2>
         <p className="mt-4 max-w-xl text-lg text-muted">
-          Part field guide, part collecting game — everything you need to
+          Part field guide, part collecting game: everything you need to
           document the cats of your neighbourhood.
         </p>
       </Reveal>

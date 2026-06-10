@@ -31,8 +31,8 @@ export default function Hero() {
           </Reveal>
           <Reveal delay={0.16}>
             <p className="mt-6 max-w-md text-lg leading-relaxed text-muted">
-              Cats on a Map turns your daily walk into a collecting game —
-              snap a photo, let AI identify the cat, and watch your local map
+              Cats on a Map turns your daily walk into a collecting game.
+              Snap a photo, let AI identify the cat, and watch your local map
               come alive.
             </p>
           </Reveal>

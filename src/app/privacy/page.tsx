@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Privacy — Cats on a Map",
+  title: "Privacy | Cats on a Map",
 };
 
 export default function Privacy() {

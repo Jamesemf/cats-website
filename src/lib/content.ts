@@ -18,7 +18,7 @@ export const features: { icon: IconName; title: string; body: string }[] = [
   {
     icon: "vision",
     title: "AI Cat Vision",
-    body: "Snap one photo and AI identifies the breed, coat colours, pattern, fur length, eye colour and body size — in seconds.",
+    body: "Snap one photo and AI identifies the breed, coat colours, pattern, fur length, eye colour and body size in seconds.",
   },
   {
     icon: "map",
@@ -28,7 +28,7 @@ export const features: { icon: IconName; title: string; body: string }[] = [
   {
     icon: "rarity",
     title: "Rarity Tiers",
-    body: "From Common to Mythical — the less a cat is seen, the higher it climbs. Legendary finds earn serious bragging rights.",
+    body: "From Common to Mythical: the less a cat is seen, the higher it climbs. Legendary finds earn serious bragging rights.",
   },
   {
     icon: "feed",
@@ -38,7 +38,7 @@ export const features: { icon: IconName; title: string; body: string }[] = [
   {
     icon: "territory",
     title: "Territory & Habits",
-    body: "Every cat gets a profile: sighting timeline, territory heatmap, and when it likes to prowl — morning, noon or midnight.",
+    body: "Every cat gets a profile: sighting timeline, territory heatmap, and when it likes to prowl, be it morning, noon or midnight.",
   },
   {
     icon: "vibes",
@@ -54,7 +54,7 @@ export const steps: { title: string; body: string }[] = [
   },
   {
     title: "Snap & tag",
-    body: "Take a photo — GPS pins the location while AI identifies the breed, coat and eye colour.",
+    body: "Take a photo. GPS pins the location while AI identifies the breed, coat and eye colour.",
   },
   {
     title: "Collect & track",

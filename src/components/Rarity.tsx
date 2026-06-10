@@ -11,7 +11,7 @@ export default function Rarity() {
         </h2>
         <p className="mt-4 max-w-xl text-lg text-muted">
           Rarity is earned, not given. The fewer the sightings, the higher a
-          cat climbs — and the bigger the moment when you find one.
+          cat climbs, and the bigger the moment when you find one.
         </p>
       </Reveal>
       <div className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
