@@ -1,26 +1,99 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@theme {
+  /* Palette ported from the app's constants/theme.ts */
+  --color-cream: #faf6f0;
+  --color-surface: #ffffff;
+  --color-card: #ede8e0;
+  --color-rust: #b53920;
+  --color-leaf: #48895c;
+  --color-ink: #2d2420;
+  --color-muted: #9a8a82;
+  --color-line: #e8e0d8;
+  --color-pill: #f4efe6;
+  --color-success: #eff7ec;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  /* Fur colours used by the app's map pins */
+  --color-fur-white: #f1ece3;
+  --color-fur-ginger: #e8873b;
+  --color-fur-brown: #7c4e2e;
+  --color-fur-grey: #9aa0a6;
+  --color-fur-black: #3b3537;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  /* Rarity tier hues */
+  --color-tier-rare: #4a7ba6;
+  --color-tier-mythical: #7c4dbe;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-fraunces), ui-serif, Georgia, serif;
+
+  /* Soft shadow matching the app (shadowColor #2D2420 @ 0.08) */
+  --shadow-soft: 0 3px 10px rgb(45 36 32 / 0.08);
+  --shadow-lift: 0 16px 40px rgb(45 36 32 / 0.14);
+
+  --animate-marquee: marquee 38s linear infinite;
+  --animate-pin-drop: pin-drop 0.6s cubic-bezier(0.2, 0.9, 0.3, 1.35) both;
+  --animate-shimmer: shimmer 3s ease-in-out infinite;
+  --animate-pulse-dot: pulse-dot 2.4s ease-out infinite;
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  @keyframes pin-drop {
+    from {
+      opacity: 0;
+      transform: translateY(-16px) scale(0.7);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+
+  @keyframes shimmer {
+    0% {
+      transform: translateX(-120%) skewX(-12deg);
+    }
+    55%,
+    100% {
+      transform: translateX(240%) skewX(-12deg);
+    }
+  }
+
+  @keyframes pulse-dot {
+    0% {
+      box-shadow: 0 0 0 0 rgb(72 137 92 / 0.45);
+    }
+    100% {
+      box-shadow: 0 0 0 14px rgb(72 137 92 / 0);
+    }
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .animate-marquee,
+  .animate-pin-drop,
+  .animate-shimmer,
+  .animate-pulse-dot {
+    animation: none;
+  }
 }
